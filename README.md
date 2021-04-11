@@ -12,7 +12,7 @@
 
 ## 🏠 Home Page
 
-![1home](https://user-images.githubusercontent.com/56067179/114292448-9e4ecb00-9ac9-11eb-8df0-af1f2dfdbe6e.png)
+![1home](https://user-images.githubusercontent.com/56067179/114292904-e3283100-9acc-11eb-9f2d-76954c034e4f.png)
 
 
 ## 📝 Register Page
@@ -32,13 +32,13 @@
 
 - 등록된 사용자 정보와 일치하는지 검사
 
-![3login](https://user-images.githubusercontent.com/56067179/114292453-a0188e80-9ac9-11eb-848f-734ff3c070b6.png)
+![3login](https://user-images.githubusercontent.com/56067179/114292906-e3283100-9acc-11eb-8216-76b58bd5461d.png)
 
-![3loginMsg](https://user-images.githubusercontent.com/56067179/114292454-a0b12500-9ac9-11eb-80bb-da7908a484ad.png)
+![3loginMsg](https://user-images.githubusercontent.com/56067179/114292907-e3c0c780-9acc-11eb-9642-6dc9c5486a38.png)
 
 - 로그아웃 페이지
 
-![4logout](https://user-images.githubusercontent.com/56067179/114292455-a0b12500-9ac9-11eb-818c-e4b069882e1b.png)
+![4logout](https://user-images.githubusercontent.com/56067179/114292910-e3c0c780-9acc-11eb-91db-91b50a604e19.png)
 
 
 ## 🔍 Product Page + detail
@@ -55,7 +55,7 @@
 
   -  <img src = "https://user-images.githubusercontent.com/56067179/104453114-46e2b100-55e7-11eb-9b5f-506f7839bf12.png" width="8%"> 버튼을 클릭하여 장바구니에  Product를 담을 수 있음
 
-![6addcart](https://user-images.githubusercontent.com/56067179/114292457-a149bb80-9ac9-11eb-9370-34d9d8c405df.png)
+![6addcart](https://user-images.githubusercontent.com/56067179/114292901-e15e6d80-9acc-11eb-8d83-a9e581561d72.png)
 
 
 ## 💼 Cart Page
@@ -63,7 +63,7 @@
 - 장바구니에 담긴 Product 목록을 보여주는 페이지
 
   - <img src = "https://user-images.githubusercontent.com/56067179/104453126-4b0ece80-55e7-11eb-9ca6-35cef6adab8c.png" width="17%"> 버튼을 클릭하여 수량 조절 가능
-  - 
+
 ![7cart](https://user-images.githubusercontent.com/56067179/114292458-a1e25200-9ac9-11eb-9d51-0c94d0e1578b.png)
 
 
@@ -73,7 +73,7 @@
 
 ![8admin](https://user-images.githubusercontent.com/56067179/114292461-a27ae880-9ac9-11eb-9d08-179da4f23133.png)
 
-![8inventory](https://user-images.githubusercontent.com/56067179/114292462-a27ae880-9ac9-11eb-86e4-b4a899705f99.png)
+![8inventory](https://user-images.githubusercontent.com/56067179/114292903-e28f9a80-9acc-11eb-946f-0086a04d7a2d.png)
 
 ![8add](https://user-images.githubusercontent.com/56067179/114292460-a1e25200-9ac9-11eb-9439-7ac31864b814.png)
 
