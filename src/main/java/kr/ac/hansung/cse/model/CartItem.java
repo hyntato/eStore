@@ -30,7 +30,7 @@ public class CartItem implements Serializable {
 	
 	@ManyToOne
 	@JoinColumn(name="cartId")
-	@JsonIgnore  // serialization 할 때 무시 (cylce 형성 방지)
+	@JsonIgnore  // serialization 할 때 무시 (cycle 형성 방지)
 	private Cart cart;  // db에서 foreign key
 	
 	@ManyToOne

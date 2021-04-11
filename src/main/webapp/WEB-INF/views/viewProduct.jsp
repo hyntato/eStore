@@ -10,8 +10,7 @@
 
 		<div class="row" ng-controller="cartCtrl">
 			<div class="col-md-6">
-				<img src="<c:url value="/resources/images/${product.imageFilename}" />"
-					alt="image" style="width: 80%" />
+				<img src="<c:url value="/resources/images/${product.imageFilename}" />" alt="image" style="width: 80%" />
 			</div>
 
 			<div class="col-md-6">
@@ -32,14 +31,11 @@
 				<p>
 					<a href="<c:url value="/products" />" class="btn btn-danger">Back</a>
 
-					<button class="btn btn-warning btn-large" 
-						ng-click="addToCart('${product.id}')">
+					<button class="btn btn-warning btn-large" ng-click="addToCart('${product.id}')">
 						<i class="fas fa-shopping-cart"></i>Order Now
 					</button>
 
-					<a href="<c:url value="/cart" />" class="btn btn-info"> <i
-						class="fas fa-eye"></i> View Cart
-					</a>
+					<a href="<c:url value="/cart" />" class="btn btn-info"> <i class="fas fa-eye"></i> View Cart</a>
 				</p>
 			</div>
 		</div>

@@ -24,6 +24,7 @@ public class CartDao {
 		Session session = sessionFactory.getCurrentSession();
 		session.saveOrUpdate(cart);
 		session.flush();
-
 	}
+
+	
 }

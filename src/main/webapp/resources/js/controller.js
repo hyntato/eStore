@@ -16,6 +16,8 @@ cartApp.controller("cartCtrl", function($scope, $http) {
 	};
 
 	$scope.clearCart = function() {
+		
+		$scope.setCsrfToken();
 
 		$http({ // long format
 			method : 'DELETE',
@@ -29,6 +31,8 @@ cartApp.controller("cartCtrl", function($scope, $http) {
 	};
 
 	$scope.addToCart = function(productId) {
+		
+		$scope.setCsrfToken();
 
 		$http.put('/eStore/api/cart/cartItem/' + productId).then(
 				function successCallback() {
@@ -39,6 +43,8 @@ cartApp.controller("cartCtrl", function($scope, $http) {
 	};
 
 	$scope.removeFromCart = function(productId) {
+		
+		$scope.setCsrfToken();
 
 		$http({
 			method : 'DELETE',
@@ -52,6 +58,8 @@ cartApp.controller("cartCtrl", function($scope, $http) {
 
 	$scope.plusFromCart = function(productId) {
 		
+		$scope.setCsrfToken();
+		
 		$http({
 			method : 'PUT',
 			url : '/eStore/api/cart/cartItem/plus/' + productId
@@ -63,6 +71,8 @@ cartApp.controller("cartCtrl", function($scope, $http) {
 	};
 
 	$scope.minusFromCart = function(productId) {
+		
+		$scope.setCsrfToken();
 
 		$http({
 			method : 'PUT',
@@ -83,5 +93,12 @@ cartApp.controller("cartCtrl", function($scope, $http) {
 
 		return grandTotal;
 	};
+	
+	$scope.setCsrfToken = function() {
+		var csrfToken = $("meta[name='_csrf']").attr("content");
+		var csrfHeader = $("meta[name='_csrf_header']").attr("content");
+
+		$http.defaults.headers.common[csrfHeader] = csrfToken;
+	}
 
 });

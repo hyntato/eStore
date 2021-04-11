@@ -8,7 +8,7 @@
 		<h1>Update Product</h1>
 		<p class="lead">Fill the below information to update a product:</p>
 		
-		<sf:form action="${pageContext.request.contextPath}/admin/productInventory/updateProduct"
+		<sf:form action="${pageContext.request.contextPath}/admin/productInventory/updateProduct?${_csrf.parameterName}=${_csrf.token}"
 			method="post" modelAttribute="product" enctype="multipart/form-data">
 		
 			<sf:hidden path="id"/>

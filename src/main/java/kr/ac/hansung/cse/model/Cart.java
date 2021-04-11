@@ -25,7 +25,7 @@ public class Cart implements Serializable {
 	private static final long serialVersionUID = -7383420736137539222L;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)  // auto increment와 동일한 효과,,?
+	@GeneratedValue(strategy=GenerationType.IDENTITY)  // auto increment와 동일한 효과
 	private int id;
 	
 	@OneToMany(mappedBy="cart", cascade=CascadeType.ALL, fetch=FetchType.EAGER)  // onetomany default는 lazy, cart 읽을 때 cartItem도 읽어들임

@@ -86,11 +86,10 @@ public class AdminController {
 		if (productImage != null && !productImage.isEmpty()) {
 			try {
 				productImage.transferTo(new File(savePath.toString()));  // images 폴더에 저장하는 부분 ***
+				
 			} catch (IllegalStateException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
